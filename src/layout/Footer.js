@@ -6,33 +6,24 @@ const Footer = () => {
         <div className="footer">
           <div className="left_part">
             <p>
-              Copyright 2022 — Designed &amp; Developed by{" "}
+              Copyright 2022 — Designed &amp; Owned by{" "}
               <a
                 href="https://themeforest.net/user/frenify/portfolio"
                 target="_blank"
                 rel="noreferrer"
               >
-                Frenify
+                Site Dominion LLC
               </a>
             </p>
           </div>
           <div className="right_part">
             <ul>
               <li>
-                <Link href="/policy">
+                <a href="https://www.sitedominion.com/privacy-policy">
                   <a className="creative_link">Privacy Policy</a>
-                </Link>
+                </a>
               </li>
-              <li>
-                <Link href="/cookies">
-                  <a className="creative_link">Cookies</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/terms-conditions">
-                  <a className="creative_link">Terms &amp; Conditions</a>
-                </Link>
-              </li>
+             
             </ul>
           </div>
         </div>
