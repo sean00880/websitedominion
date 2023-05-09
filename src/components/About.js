@@ -225,6 +225,7 @@ export const About2 = () => (
             <div className="item">
               <a href="https://www.sitedominion.com/" style={{"textDecoration":"none", "color":"#dddddd"}}>
               <div className="item_in">
+              <h3 className="fn__gradient_title">01</h3>
                 <p>Explore</p>
                 <img src="/img/browse.png" />
               </div>
