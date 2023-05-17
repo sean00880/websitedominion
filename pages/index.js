@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { About2 } from "../src/components/About";
+import About from "../src/components/About";
 import Collection from "../src/components/Collection";
 import Contact from "../src/components/Contact";
 import Faq from "../src/components/Faq";
@@ -16,7 +16,7 @@ const Index5 = () => {
       <HeroSlider2 />
       {/* !Home Section #2 */}
       {/* Section About #2 */}
-      <About2 />
+      <About />
       {/* !Section About #2 */}
       {/* Section Divider */}
       {/* !Section News */}

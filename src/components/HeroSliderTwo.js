@@ -124,11 +124,11 @@ const HeroSlider = () => {
     <section id="home">
       <div className="container">
         <h1
-          className="fn__maintitle big"
-          data-text="Professional Custom Web Design | San Diego"
+          className="fn__maintitle"
+          data-text="Professional Custom Web Design for Business"
           data-align="center"
         >
-          Professional Custom Web Design | San Diego
+          Professional Custom Web Design for Business
         </h1>
         <hr />
          <h4>Order a high converting website that efficiently drives traffic and generates leads for your small business. <br /> Starting at only <strong style={{"fontStyle":"italic"}}> $79.99/month</strong></h4>
@@ -191,7 +191,7 @@ const HeroSlider = () => {
                     className="popup-youtube metaportal_fn_videobutton"
                     href="https://www.sitedominion.com/#portfolio_section"
                   >
-                    <h2>Live Projects</h2>
+                    <h2>Portfolio</h2>
                   </a>
                     <div className="img" data-bg-img="/img/slider/3.jpg" />
                   </div>

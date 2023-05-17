@@ -938,7 +938,7 @@ a.full_link{
 }
 .header .nav a{
 	font-family: var(--hff);
-	font-size: 31px;
+	font-size: 27px;
 	font-weight: 500;
 	letter-spacing: 0;
 	text-decoration: none;
@@ -961,7 +961,7 @@ a.full_link{
 	z-index: 5;
 }
 .fn__maintitle.big{
-	font-size: 60px;
+	font-size: 43px;
 	text-transform: uppercase;
 }
 .fn__maintitle[data-align="center"]{
@@ -1415,7 +1415,6 @@ a.full_link{
 
 
 .fn__gradient_title{
-	width: fit-content;
 	max-width: 100%;
 	margin: 0;
 	padding: 0;
@@ -1471,7 +1470,7 @@ a.full_link{
 	padding: 20px;
     border-radius: 10px;
     border: 1px solid rgba(255,255,255,.5);
-	background-color: rgba(255,255,255,.05);
+	background:linear-gradient(45deg, black, transparent);
 	position: relative;
 	z-index: 5;
 }
@@ -1480,11 +1479,7 @@ a.full_link{
 	opacity: 0;
 }
 .fn_cs_about .left_part .bg_overlay{
-	right: 130px;
 	box-shadow: 0px 5px 20px rgba(0,0,0,0.25);
-}
-.fn_cs_about .left_part .bg_color{
-	background-color: rgba(0,0,0,0.7);
 }
 .fn_cs_about .right_part{
 	width: 43%;

@@ -8,7 +8,7 @@ const Footer = () => {
             <p>
               Copyright 2022 — Designed &amp; Owned by{" "}
               <a
-                href="https://themeforest.net/user/frenify/portfolio"
+                href="https://www.sitedominion.com/"
                 target="_blank"
                 rel="noreferrer"
               >
