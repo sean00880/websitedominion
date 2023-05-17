@@ -12,7 +12,7 @@ import HeroSlider2 from "../src/components/HeroSliderTwo";
 import HeroSlider from "../src/components/HeroSlider";
 const Index5 = () => {
   return (
-    <Layout pageTitle={"Web Design San Diego"}>
+    <Layout pageTitle={"#1 Website Design Company"}>
       <HeroSlider2 />
       {/* !Home Section #2 */}
       {/* Section About #2 */}

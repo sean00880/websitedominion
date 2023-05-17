@@ -81,29 +81,34 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
         <div className="mob_bot" style={{ display: toggle ? "block" : "none" }}>
           <ul>
             <li>
-              <a className="creative_link" href="#home">
-                Home
+              <Link href="/">
+                  <a className="creative_link">Welcome</a>
+                </Link>
+            </li>
+            <li>
+              <a className="creative_link" href="https://www.sitedominion.com">
+                Official Store
               </a>
             </li>
             <li>
-              <a className="creative_link" href="#about">
-                About
+            <Link href="/#about">
+                  <a className="creative_link">About</a>
+                </Link>
+            </li>
+            <li>
+              <a className="creative_link" href="https://www.landscaping.sitedominion.com/">
+                Landscaping Web Design
               </a>
             </li>
             <li>
-              <a className="creative_link" href="#collection">
-                Collection
-              </a>
-            </li>
-            <li>
-              <a className="creative_link" href="#news">
+              <a className="creative_link" href="https://sitedominion.medium.com">
                 Blog
               </a>
             </li>
             <li>
-              <a className="creative_link" href="#contact">
-                Contact
-              </a>
+            <Link href="/#contact">
+                  <a className="creative_link">Contact</a>
+                </Link>
             </li>
           </ul>
         </div>
